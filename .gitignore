@@ -10,7 +10,5 @@ pom.xml.asc
 /.nrepl-port
 .idea/
 *.iml
-# We normally ignore the two following files, but we don't for this example repo,
-# because we want to show how we use them with CIDER in a Dockerized environment
-#/.dir-locals.el
-#/profiles.clj
+/.dir-locals.el
+/profiles.clj
