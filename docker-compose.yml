@@ -26,7 +26,7 @@ services:
     # a couple of additional tweaks to run the entry point command
     # inside the container with the uid and gid of the owner of the
     # '/app' mount point (to avoid permission issues).
-    image: 223330293187.dkr.ecr.eu-west-1.amazonaws.com/magnetcoop/lein:13f8f83
+    image: iarenaza/lein-docker-demo:3bad4be671
     environment:
       - MQTT_TESTS_HOST
       - MQTT_TESTS_PORT
